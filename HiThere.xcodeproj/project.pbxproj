@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6591DB9C17F64C6C00FB0C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DB9B17F64C6C00FB0C6B /* Foundation.framework */; };
+		6591DB9E17F64C6C00FB0C6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DB9D17F64C6C00FB0C6B /* CoreGraphics.framework */; };
+		6591DBA017F64C6C00FB0C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DB9F17F64C6C00FB0C6B /* UIKit.framework */; };
+		6591DBA617F64C6C00FB0C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6591DBA417F64C6C00FB0C6B /* InfoPlist.strings */; };
+		6591DBA817F64C6C00FB0C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591DBA717F64C6C00FB0C6B /* main.m */; };
+		6591DBAC17F64C6C00FB0C6B /* HiThereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591DBAB17F64C6C00FB0C6B /* HiThereAppDelegate.m */; };
+		6591DBAF17F64C6C00FB0C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591DBAD17F64C6C00FB0C6B /* Main.storyboard */; };
+		6591DBB217F64C6C00FB0C6B /* HiThereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591DBB117F64C6C00FB0C6B /* HiThereViewController.m */; };
+		6591DBB417F64C6C00FB0C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591DBB317F64C6C00FB0C6B /* Images.xcassets */; };
+		6591DBBB17F64C6D00FB0C6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DBBA17F64C6D00FB0C6B /* XCTest.framework */; };
+		6591DBBC17F64C6D00FB0C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DB9B17F64C6C00FB0C6B /* Foundation.framework */; };
+		6591DBBD17F64C6D00FB0C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6591DB9F17F64C6C00FB0C6B /* UIKit.framework */; };
+		6591DBC517F64C6D00FB0C6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6591DBC317F64C6D00FB0C6B /* InfoPlist.strings */; };
+		6591DBC717F64C6D00FB0C6B /* HiThereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6591DBC617F64C6D00FB0C6B /* HiThereTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6591DBBE17F64C6D00FB0C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6591DB9017F64C6C00FB0C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6591DB9717F64C6C00FB0C6B;
+			remoteInfo = HiThere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6591DB9817F64C6C00FB0C6B /* HiThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6591DB9B17F64C6C00FB0C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6591DB9D17F64C6C00FB0C6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6591DB9F17F64C6C00FB0C6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6591DBA317F64C6C00FB0C6B /* HiThere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiThere-Info.plist"; sourceTree = "<group>"; };
+		6591DBA517F64C6C00FB0C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6591DBA717F64C6C00FB0C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6591DBA917F64C6C00FB0C6B /* HiThere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiThere-Prefix.pch"; sourceTree = "<group>"; };
+		6591DBAA17F64C6C00FB0C6B /* HiThereAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiThereAppDelegate.h; sourceTree = "<group>"; };
+		6591DBAB17F64C6C00FB0C6B /* HiThereAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiThereAppDelegate.m; sourceTree = "<group>"; };
+		6591DBAE17F64C6C00FB0C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6591DBB017F64C6C00FB0C6B /* HiThereViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiThereViewController.h; sourceTree = "<group>"; };
+		6591DBB117F64C6C00FB0C6B /* HiThereViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiThereViewController.m; sourceTree = "<group>"; };
+		6591DBB317F64C6C00FB0C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6591DBB917F64C6D00FB0C6B /* HiThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6591DBBA17F64C6D00FB0C6B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6591DBC217F64C6D00FB0C6B /* HiThereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiThereTests-Info.plist"; sourceTree = "<group>"; };
+		6591DBC417F64C6D00FB0C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6591DBC617F64C6D00FB0C6B /* HiThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiThereTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6591DB9517F64C6C00FB0C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DB9E17F64C6C00FB0C6B /* CoreGraphics.framework in Frameworks */,
+				6591DBA017F64C6C00FB0C6B /* UIKit.framework in Frameworks */,
+				6591DB9C17F64C6C00FB0C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6591DBB617F64C6D00FB0C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DBBB17F64C6D00FB0C6B /* XCTest.framework in Frameworks */,
+				6591DBBD17F64C6D00FB0C6B /* UIKit.framework in Frameworks */,
+				6591DBBC17F64C6D00FB0C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6591DB8F17F64C6C00FB0C6B = {
+			isa = PBXGroup;
+			children = (
+				6591DBA117F64C6C00FB0C6B /* HiThere */,
+				6591DBC017F64C6D00FB0C6B /* HiThereTests */,
+				6591DB9A17F64C6C00FB0C6B /* Frameworks */,
+				6591DB9917F64C6C00FB0C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6591DB9917F64C6C00FB0C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6591DB9817F64C6C00FB0C6B /* HiThere.app */,
+				6591DBB917F64C6D00FB0C6B /* HiThereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6591DB9A17F64C6C00FB0C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6591DB9B17F64C6C00FB0C6B /* Foundation.framework */,
+				6591DB9D17F64C6C00FB0C6B /* CoreGraphics.framework */,
+				6591DB9F17F64C6C00FB0C6B /* UIKit.framework */,
+				6591DBBA17F64C6D00FB0C6B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6591DBA117F64C6C00FB0C6B /* HiThere */ = {
+			isa = PBXGroup;
+			children = (
+				6591DBAA17F64C6C00FB0C6B /* HiThereAppDelegate.h */,
+				6591DBAB17F64C6C00FB0C6B /* HiThereAppDelegate.m */,
+				6591DBAD17F64C6C00FB0C6B /* Main.storyboard */,
+				6591DBB017F64C6C00FB0C6B /* HiThereViewController.h */,
+				6591DBB117F64C6C00FB0C6B /* HiThereViewController.m */,
+				6591DBB317F64C6C00FB0C6B /* Images.xcassets */,
+				6591DBA217F64C6C00FB0C6B /* Supporting Files */,
+			);
+			path = HiThere;
+			sourceTree = "<group>";
+		};
+		6591DBA217F64C6C00FB0C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6591DBA317F64C6C00FB0C6B /* HiThere-Info.plist */,
+				6591DBA417F64C6C00FB0C6B /* InfoPlist.strings */,
+				6591DBA717F64C6C00FB0C6B /* main.m */,
+				6591DBA917F64C6C00FB0C6B /* HiThere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6591DBC017F64C6D00FB0C6B /* HiThereTests */ = {
+			isa = PBXGroup;
+			children = (
+				6591DBC617F64C6D00FB0C6B /* HiThereTests.m */,
+				6591DBC117F64C6D00FB0C6B /* Supporting Files */,
+			);
+			path = HiThereTests;
+			sourceTree = "<group>";
+		};
+		6591DBC117F64C6D00FB0C6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6591DBC217F64C6D00FB0C6B /* HiThereTests-Info.plist */,
+				6591DBC317F64C6D00FB0C6B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6591DB9717F64C6C00FB0C6B /* HiThere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6591DBCA17F64C6D00FB0C6B /* Build configuration list for PBXNativeTarget "HiThere" */;
+			buildPhases = (
+				6591DB9417F64C6C00FB0C6B /* Sources */,
+				6591DB9517F64C6C00FB0C6B /* Frameworks */,
+				6591DB9617F64C6C00FB0C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiThere;
+			productName = HiThere;
+			productReference = 6591DB9817F64C6C00FB0C6B /* HiThere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6591DBB817F64C6D00FB0C6B /* HiThereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6591DBCD17F64C6D00FB0C6B /* Build configuration list for PBXNativeTarget "HiThereTests" */;
+			buildPhases = (
+				6591DBB517F64C6D00FB0C6B /* Sources */,
+				6591DBB617F64C6D00FB0C6B /* Frameworks */,
+				6591DBB717F64C6D00FB0C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6591DBBF17F64C6D00FB0C6B /* PBXTargetDependency */,
+			);
+			name = HiThereTests;
+			productName = HiThereTests;
+			productReference = 6591DBB917F64C6D00FB0C6B /* HiThereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6591DB9017F64C6C00FB0C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HiThere;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nine Against";
+				TargetAttributes = {
+					6591DBB817F64C6D00FB0C6B = {
+						TestTargetID = 6591DB9717F64C6C00FB0C6B;
+					};
+				};
+			};
+			buildConfigurationList = 6591DB9317F64C6C00FB0C6B /* Build configuration list for PBXProject "HiThere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6591DB8F17F64C6C00FB0C6B;
+			productRefGroup = 6591DB9917F64C6C00FB0C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6591DB9717F64C6C00FB0C6B /* HiThere */,
+				6591DBB817F64C6D00FB0C6B /* HiThereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6591DB9617F64C6C00FB0C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DBB417F64C6C00FB0C6B /* Images.xcassets in Resources */,
+				6591DBA617F64C6C00FB0C6B /* InfoPlist.strings in Resources */,
+				6591DBAF17F64C6C00FB0C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6591DBB717F64C6D00FB0C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DBC517F64C6D00FB0C6B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6591DB9417F64C6C00FB0C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DBB217F64C6C00FB0C6B /* HiThereViewController.m in Sources */,
+				6591DBAC17F64C6C00FB0C6B /* HiThereAppDelegate.m in Sources */,
+				6591DBA817F64C6C00FB0C6B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6591DBB517F64C6D00FB0C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6591DBC717F64C6D00FB0C6B /* HiThereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6591DBBF17F64C6D00FB0C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6591DB9717F64C6C00FB0C6B /* HiThere */;
+			targetProxy = 6591DBBE17F64C6D00FB0C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6591DBA417F64C6C00FB0C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6591DBA517F64C6C00FB0C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6591DBAD17F64C6C00FB0C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6591DBAE17F64C6C00FB0C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6591DBC317F64C6D00FB0C6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6591DBC417F64C6D00FB0C6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6591DBC817F64C6D00FB0C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6591DBC917F64C6D00FB0C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6591DBCB17F64C6D00FB0C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
+				INFOPLIST_FILE = "HiThere/HiThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6591DBCC17F64C6D00FB0C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
+				INFOPLIST_FILE = "HiThere/HiThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6591DBCE17F64C6D00FB0C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiThere.app/HiThere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HiThereTests/HiThereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6591DBCF17F64C6D00FB0C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiThere.app/HiThere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiThere/HiThere-Prefix.pch";
+				INFOPLIST_FILE = "HiThereTests/HiThereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6591DB9317F64C6C00FB0C6B /* Build configuration list for PBXProject "HiThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6591DBC817F64C6D00FB0C6B /* Debug */,
+				6591DBC917F64C6D00FB0C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6591DBCA17F64C6D00FB0C6B /* Build configuration list for PBXNativeTarget "HiThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6591DBCB17F64C6D00FB0C6B /* Debug */,
+				6591DBCC17F64C6D00FB0C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6591DBCD17F64C6D00FB0C6B /* Build configuration list for PBXNativeTarget "HiThereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6591DBCE17F64C6D00FB0C6B /* Debug */,
+				6591DBCF17F64C6D00FB0C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6591DB9017F64C6C00FB0C6B /* Project object */;
+}
